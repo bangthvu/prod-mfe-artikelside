@@ -5,7 +5,7 @@ import billede from '../img/ingenbillede.jpg'
 
 export const Artikelside = (props) => {
 
-    const API_URL = "http://localhost:8084"
+    const API_URL = "https://prod-mfe-server.herokuapp.com"
 
     const [article, setArticle] = useState([]);
     
